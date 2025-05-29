@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,0 C31.0457,0 40,8.9543 40,20 C40,31.0457 31.0457,40 20,40 C8.9543,40 0,31.0457 0,20 C0,8.9543 8.9543,0 20,0 Z" fill="#805AD5" opacity="0.2"></path>
+        <path d="M20,12 C22.2091,12 24,10.2091 24,8 C24,5.79086 22.2091,4 20,4 C17.7909,4 16,5.79086 16,8 C16,10.2091 17.7909,12 20,12 Z" fill="#805AD5"></path>
+        <path d="M14,21 L20,15" stroke="#805AD5" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M26,21 L20,15" stroke="#805AD5" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M20,15 L20,32" stroke="#805AD5" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M14,32 L26,32" stroke="#805AD5" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+</svg>

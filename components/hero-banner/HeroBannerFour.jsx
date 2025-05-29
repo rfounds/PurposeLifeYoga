@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import FeaturesEight from "../features/FeaturesEight";
 import Image from "next/image";
 
 const HeroBannerFour = () => {
   return (
-    <div className="hero-banner-four">
+    <div className="hero-banner-four" style={{ backgroundColor: '#f5f0e8', minHeight: '100vh' }}>
       <Image width="213" height="86"
         src="/images/shape/100.svg"
         alt="shape"
@@ -28,27 +27,16 @@ const HeroBannerFour = () => {
       />
 
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-6 order-lg-last">
             <div className="illustration-holder">
               <Image
-                src="/images/assets/ils_14.svg"
-                alt="shape"
+                src="/images/assets/yoga-pose.png"
+                alt="Yoga Pose"
                 className="illustration"
-                width={660}
-                height={471}
-              />
-              <Image
-                src="/images/assets/ils_14.1.svg"
-                width={83}
-                height = {102}
-                alt="shape"
-                className="shapes shape-one"
-              />
-              <Image width="83" height="98"
-                src="/images/assets/ils_14.2.svg"
-                alt="shape"
-                className="shapes shape-two"
+                width={600}
+                height={600}
+                style={{ objectFit: 'contain' }}
               />
               <Image  width="88" height="107"
                 src="/images/assets/ils_14.3.svg"
@@ -62,45 +50,34 @@ const HeroBannerFour = () => {
           </div>
           {/* End .col */}
 
-          <div className="col-lg-6 order-lg-first">
-            <div className="text-wrapper">
-              <h1 data-aos="fade-up" data-aos-duration="1200">
-                <span>Event ticket</span> organiser & seller.
+          <div className="col-xl-6 col-lg-6 order-lg-first">
+            <div className="hero-text-wrapper">
+              <h1 style={{ color: '#4a5568', fontFamily: '"Playfair Display", serif' }}>
+                Welcome to <span style={{ color: '#805ad5', fontWeight: 'bold' }}>pur<span style={{ textTransform: 'uppercase' }}>POSE</span> Life Yoga</span>
               </h1>
-              <p
-                className="sub-text"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-                data-aos-delay="100"
-              >
-                For hassale free event, we are here to help you by creating
-                online ticket.
+              <h2 style={{ color: '#718096', fontWeight: 'normal', fontSize: '1.75rem', marginTop: '1rem' }}>
+                You don't have purpose. You <span style={{ fontStyle: 'italic' }}>are</span> purpose.
+              </h2>
+              <p className="hero-sub-heading" style={{ color: '#718096', marginTop: '1.5rem' }}>
+                Breathe into your being. Move with meaning. Live with heart.
               </p>
-              <Link
-                    href="/login"
-                className="theme-btn-five"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-                data-aos-delay="200"
-              >
-                {" "}
-                Let’s get started
-              </Link>
+              <div className="d-flex flex-wrap mt-5 gap-3">
+                <Link href="/classes" className="theme-btn-five icon-link" style={{ backgroundColor: '#805ad5', color: 'white', border: 'none' }}>
+                  <span>Join a Class</span>
+                </Link>
+                <Link href="/about" className="theme-btn-five icon-link" style={{ backgroundColor: 'transparent', color: '#805ad5', border: '2px solid #805ad5' }}>
+                  <span>Explore Our Story</span>
+                </Link>
+                <Link href="/contact" className="theme-btn-five icon-link" style={{ backgroundColor: 'transparent', color: '#4a5568', border: '2px solid #4a5568' }}>
+                  <span>Stay Connected</span>
+                </Link>
+              </div>
             </div>
-            {/* /.text-wrapper */}
           </div>
-          {/* End .col */}
         </div>
       </div>
 
-      <div className="fancy-feature-eight mt-160 md-mt-100">
-        <div className="container">
-          <div className="bg-wrapper">
-            <FeaturesEight />
-          </div>
-        </div>
-      </div>
-      {/* /.fancy-feature-eight */}
+
     </div>
   );
   //  {/* /.hero-banner-four */}

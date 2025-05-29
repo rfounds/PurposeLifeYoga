@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,0 C31.0457,0 40,8.9543 40,20 C40,31.0457 31.0457,40 20,40 C8.9543,40 0,31.0457 0,20 C0,8.9543 8.9543,0 20,0 Z" fill="#805AD5" opacity="0.2"></path>
+        <path d="M15,15 C15,12.2386 17.2386,10 20,10 C22.7614,10 25,12.2386 25,15 C25,17.7614 22.7614,20 20,20 C17.2386,20 15,17.7614 15,15 Z" fill="#805AD5"></path>
+        <path d="M14,30 L14,26 C14,22.6863 16.6863,20 20,20 C23.3137,20 26,22.6863 26,26 L26,30" stroke="#805AD5" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M10,24 L10,19 C10,17.3431 11.3431,16 13,16 C14.6569,16 16,17.3431 16,19 L16,24" stroke="#805AD5" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M30,24 L30,19 C30,17.3431 28.6569,16 27,16 C25.3431,16 24,17.3431 24,19 L24,24" stroke="#805AD5" stroke-width="2" stroke-linecap="round" transform="translate(27.000000, 20.000000) scale(-1, 1) translate(-27.000000, -20.000000) "></path>
+    </g>
+</svg>
